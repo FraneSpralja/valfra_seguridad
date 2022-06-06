@@ -18,6 +18,10 @@ p, a, span {
     font-size: 20px;
 }
 
+a {
+    color: #353535;
+}
+
 p {
     line-height: 1.6;
 }
