@@ -152,11 +152,34 @@ img.menu-logo--image {
     position: relative;
     top: 130px;
     height: 70vh;
-    background-image: url(/assets/images/valfra_seguridad_mall.png);
+    background-image: url(/assets/images/sec_guard_mall.jpg);
     background-size: cover;
     background-position: center;
     display: block;
     margin-bottom: 130px;
+}
+
+#page-hero div.slider-hero {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+    width: 100%;
+}
+
+#page-hero div.slider-hero div:first-of-type {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 417px;
+    left: 0px;
+}
+
+#page-hero div.slider-hero div:last-of-type {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 413px;
+    left: 0;
 }
 
 /* MAIN */
@@ -516,6 +539,21 @@ footer#footer .footer-block--bottom {
 
     #page-hero {
         top: 230px;
+    }
+
+    #page-hero div.slider-hero div img {
+        height: 250px;
+    }
+
+    #page-hero div.slider-hero div:first-of-type {
+        top: 166px;
+        left: 10px;
+    }
+
+    #page-hero div.slider-hero div:last-of-type {
+        position: relative;
+        top: 166px;
+        left: 0px;
     }
 
     main#page-main{
