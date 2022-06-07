@@ -1,3 +1,6 @@
+/* CALL FONTS: font-family: 'Public Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;500&display=swap');
+
 /* RESET STYLES */
 
 * {
@@ -8,6 +11,7 @@
 
 body {
     padding: 20px 0 0;
+    font-family: 'Public Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -103,10 +107,9 @@ nav#nav-menu {
     margin-right: 0;
 }
 
-.nav-menu--flex .nav-menu--logo {
+img.menu-logo--image {
+    width: auto;
     height: 60px;
-    width: 60px;
-    background: #e5c411ff;
 }
 
 .nav-menu--flex .nav-menu--menu #nav-menu--list {
@@ -148,8 +151,10 @@ nav#nav-menu {
 #page-hero{
     position: relative;
     top: 130px;
-    height: 50vh;
-    background: green;
+    height: 70vh;
+    background-image: url(/assets/images/valfra_seguridad_mall.png);
+    background-size: cover;
+    background-position: center;
     display: block;
     margin-bottom: 130px;
 }
@@ -382,7 +387,7 @@ section#contacto-form form#formulario-bottom {
     display: flex;
     flex-flow: column;
     row-gap: 5px;
-    width: 60%;
+    width: 40%;
     margin: auto;
 }
 
@@ -391,14 +396,14 @@ form#formulario-bottom label {
 }
 
 form#formulario-bottom input {
-    height: 20px;
+    height: 30px;
     padding: 2px 3px;
     border-radius: 7px;
     border: 1px solid #ccc;
 }
 
 form#formulario-bottom select {
-    height: 30px;
+    height: 40px;
     padding: 2px 3px;
     font-size: 17px;
     border-radius: 7px;

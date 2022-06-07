@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="template_VALFRA.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="11.313708"
+     inkscape:cx="715.23851"
+     inkscape:cy="23.246136"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="213.7488,297.65481"
+       orientation="1,0"
+       id="guide2149"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="210.01287,290.14789"
+       orientation="0,-1"
+       id="guide4014"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="209.99826,222.34724"
+       orientation="1,0"
+       id="guide4072"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="212.62627,301.58367"
+       orientation="1,0"
+       id="guide4074"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="105.00237,296.49151"
+       orientation="1,0"
+       id="guide6636"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="210.04299,252.83009"
+       orientation="0,-1"
+       id="guide6638"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="24"
+       y="434"
+       width="351"
+       height="196"
+       id="rect7856" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6264">
+      <stop
+         style="stop-color:#e0be67;stop-opacity:1;"
+         offset="0"
+         id="stop6260" />
+      <stop
+         style="stop-color:#e5c411;stop-opacity:1;"
+         offset="1"
+         id="stop6262" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="boton_contacto">
+      <stop
+         style="stop-color:#f0f0f0;stop-opacity:1;"
+         offset="0"
+         id="stop1289" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="1"
+         id="stop1291" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1182"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1180" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6264"
+       id="linearGradient1295"
+       x1="159.68588"
+       y1="7.6657972"
+       x2="159.66687"
+       y2="12.044799"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       gradientTransform="translate(2.1993456,-6.1019532)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#boton_contacto"
+       id="linearGradient4066"
+       gradientUnits="userSpaceOnUse"
+       x1="159.68588"
+       y1="7.6657972"
+       x2="159.66687"
+       y2="12.044799"
+       spreadMethod="reflect"
+       gradientTransform="translate(31.547896,-6.1406286)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6264"
+       id="linearGradient7968"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2097951,0,0,2.0860623,-54.738034,144.77389)"
+       x1="159.68588"
+       y1="7.6657972"
+       x2="159.66687"
+       y2="12.044799"
+       spreadMethod="reflect" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6264"
+       id="linearGradient9876"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.8609767,0,0,2.0814115,-192.40618,229.22145)"
+       x1="159.68588"
+       y1="7.6657972"
+       x2="159.66687"
+       y2="12.044799"
+       spreadMethod="reflect" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#252525;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       id="rect61"
+       width="210.00693"
+       height="6.6084623"
+       x="0.0011962878"
+       y="-0.0010147145" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       id="rect61-9"
+       width="209.98354"
+       height="12.454983"
+       x="0.023438225"
+       y="6.5646963" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.46678px;fill:#ffffff;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       x="4.3609462"
+       y="4.9181929"
+       id="text327"><tspan
+         sodipodi:role="line"
+         id="tspan325"
+         x="4.3609462"
+         y="4.9181929"
+         style="fill:#ffffff;stroke-width:0">Nombre de la empresa</tspan></text>
+    <g
+       id="g7958"
+       style="stroke:#e0be65;stroke-opacity:1">
+      <rect
+         style="mix-blend-mode:normal;fill:url(#linearGradient1295);fill-opacity:1;fill-rule:evenodd;stroke:#e0be65;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:1"
+         id="rect439"
+         width="27.439205"
+         height="4.3178444"
+         x="148.15944"
+         y="1.5177737"
+         ry="1.3928531"
+         inkscape:transform-center-x="-12.033111"
+         inkscape:transform-center-y="-1.5864549" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.61169px;fill:#353535;fill-opacity:1;stroke:#e0be65;stroke-width:0;stroke-opacity:1"
+         x="149.88309"
+         y="4.5994768"
+         id="text437"><tspan
+           sodipodi:role="line"
+           id="tspan435"
+           x="149.88309"
+           y="4.5994768"
+           style="fill:#353535;fill-opacity:1;stroke-width:0;stroke:#e0be65;stroke-opacity:1">correo@dominio.cl</tspan></text>
+    </g>
+    <rect
+       style="mix-blend-mode:normal;fill:url(#linearGradient4066);fill-opacity:1;fill-rule:evenodd;stroke:#f0f0f0;stroke-width:0.0529167;stroke-dasharray:none;stroke-opacity:1"
+       id="rect439-8"
+       width="27.439205"
+       height="4.3178444"
+       x="177.508"
+       y="1.4790984"
+       ry="1.3928531"
+       inkscape:transform-center-x="-12.033111"
+       inkscape:transform-center-y="-1.5864549" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.61169px;fill:#353535;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       x="179.23164"
+       y="4.5608015"
+       id="text437-3"><tspan
+         sodipodi:role="line"
+         id="tspan435-8"
+         x="179.23164"
+         y="4.5608015"
+         style="fill:#353535;fill-opacity:1;stroke-width:0">+569 1234 5889</tspan></text>
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0530442;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6318"
+       width="209.9989"
+       height="60.909756"
+       x="0.001258765"
+       y="19.007523"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20.2384px;fill:#0b0b0b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.337838;stroke-dasharray:none;stroke-opacity:1"
+       x="50.397545"
+       y="56.819572"
+       id="text6374"><tspan
+         sodipodi:role="line"
+         id="tspan6372"
+         style="fill:#0b0b0b;fill-opacity:1;stroke-width:0.337838"
+         x="50.397545"
+         y="56.819572">&lt;SLIDER&gt;</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6838"
+       width="17.212158"
+       height="9.1673441"
+       x="4.6772165"
+       y="8.2085152" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;opacity:1;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:1"
+       x="8.6184645"
+       y="13.946381"
+       id="text6894"><tspan
+         sodipodi:role="line"
+         id="tspan6892"
+         style="fill:#1a1a1a;stroke-width:0.053"
+         x="8.6184645"
+         y="13.946381">LOGO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.46678px;fill:#333333;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       x="54.30365"
+       y="14.411613"
+       id="text7050"><tspan
+         sodipodi:role="line"
+         id="tspan7048"
+         x="54.30365"
+         y="14.411613"
+         style="fill:#333333;stroke-width:0">Item Uno</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.46678px;fill:#0d1a77;stroke:#000000;stroke-width:0;stroke-opacity:0.743243;fill-opacity:1"
+       x="79.525742"
+       y="14.411613"
+       id="text7156"><tspan
+         sodipodi:role="line"
+         id="tspan7154"
+         x="79.525742"
+         y="14.411613"
+         style="fill:#0d1a77;stroke-width:0;fill-opacity:1">Item Dos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.46678px;fill:#333333;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       x="104.06924"
+       y="14.411613"
+       id="text7160"><tspan
+         sodipodi:role="line"
+         id="tspan7158"
+         x="104.06924"
+         y="14.411613"
+         style="fill:#333333;stroke-width:0">Item Tres</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.46678px;fill:#333333;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       x="128.95203"
+       y="14.411613"
+       id="text7164"><tspan
+         sodipodi:role="line"
+         id="tspan7162"
+         x="128.95203"
+         y="14.411613"
+         style="fill:#333333;stroke-width:0">Item Cuatro</tspan></text>
+    <rect
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7228"
+       width="20.205576"
+       height="0.56126595"
+       x="79.793312"
+       y="15.10741" />
+    <rect
+       style="opacity:0.92;fill:#0d1a77;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0533673;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7290"
+       width="20.205576"
+       height="34.939053"
+       x="79.7939"
+       y="15.669634" />
+    <g
+       id="g7468"
+       transform="translate(5.8760586e-4,-2.1774937)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.48643px;fill:#e6e6e6;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+         x="83.842514"
+         y="21.138546"
+         id="text7294"><tspan
+           sodipodi:role="line"
+           id="tspan7292"
+           x="83.842514"
+           y="21.138546"
+           style="fill:#e6e6e6;stroke-width:0">Item A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.48643px;fill:#e6e6e6;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+         x="83.885918"
+         y="28.686535"
+         id="text7298"><tspan
+           sodipodi:role="line"
+           id="tspan7296"
+           x="83.885918"
+           y="28.686535"
+           style="fill:#e6e6e6;stroke-width:0">Item B</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.48643px;fill:#e6e6e6;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+         x="83.862938"
+         y="36.256653"
+         id="text7302"><tspan
+           sodipodi:role="line"
+           id="tspan7300"
+           x="83.862938"
+           y="36.256653"
+           style="fill:#e6e6e6;stroke-width:0">Item C</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.48643px;fill:#e6e6e6;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+         x="83.771011"
+         y="43.782513"
+         id="text7306"><tspan
+           sodipodi:role="line"
+           id="tspan7304"
+           x="83.771011"
+           y="43.782513"
+           style="fill:#e6e6e6;stroke-width:0">Item D</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.48643px;fill:#e6e6e6;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+         x="84.00679"
+         y="51.330502"
+         id="text7310"><tspan
+           sodipodi:role="line"
+           id="tspan7308"
+           x="84.00679"
+           y="51.330502"
+           style="fill:#e6e6e6;stroke-width:0">Item E</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.92;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:0.743243"
+       id="rect7522"
+       width="39.288616"
+       height="3.9288619"
+       x="165.24606"
+       y="10.827757"
+       ry="0.38033855" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;opacity:0.92;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:0.743243"
+       x="171.82373"
+       y="13.974286"
+       id="text7630"><tspan
+         sodipodi:role="line"
+         id="tspan7628"
+         style="stroke-width:0.053;stroke:none;fill:#cccccc"
+         x="171.82373"
+         y="13.974286">Busca en el sitio</tspan></text>
+    <rect
+       style="opacity:0.92;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:0.743243"
+       id="rect7736"
+       width="77.787498"
+       height="8.7312498"
+       x="121.80175"
+       y="91.28125"
+       ry="0.38033855" />
+    <rect
+       style="opacity:0.92;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:0.743243"
+       id="rect7738"
+       width="77.787498"
+       height="8.7312498"
+       x="121.80175"
+       y="106.75938"
+       ry="0.38033855" />
+    <rect
+       style="opacity:0.92;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:0.743243"
+       id="rect7740"
+       width="77.787498"
+       height="8.7312498"
+       x="121.80175"
+       y="122.10521"
+       ry="0.38033855" />
+    <rect
+       style="opacity:0.92;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0777406;stroke-dasharray:none;stroke-opacity:0.743243"
+       id="rect7744"
+       width="77.787498"
+       height="18.785418"
+       x="121.80175"
+       y="138.48735"
+       ry="0.81830412" />
+    <g
+       id="g7925"
+       transform="translate(4.8559195)">
+      <text
+         xml:space="preserve"
+         style="font-size:9.04148px;opacity:0.92;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.150929;stroke-dasharray:none;stroke-opacity:0.743243"
+         x="5.5562501"
+         y="98.463394"
+         id="text7800"><tspan
+           sodipodi:role="line"
+           id="tspan7798"
+           style="fill:#1a1a1a;stroke-width:0.150929"
+           x="5.5562501"
+           y="98.463394">Título de </tspan><tspan
+           sodipodi:role="line"
+           style="fill:#1a1a1a;stroke-width:0.150929"
+           x="5.5562501"
+           y="109.76524"
+           id="tspan7852">informacíón principal</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,1.49427,4.2333335)"
+         id="text7854"
+         style="white-space:pre;shape-inside:url(#rect7856);opacity:0.92;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.200315;stroke-dasharray:none;stroke-opacity:0.743243"><tspan
+           x="24"
+           y="444.94796"
+           id="tspan11733">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="459.94796"
+           id="tspan11735">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="474.94796"
+           id="tspan11737">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="489.94796"
+           id="tspan11739">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="504.94796"
+           id="tspan11741">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="519.94796"
+           id="tspan11743">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 
+</tspan><tspan
+           x="24"
+           y="534.94796"
+           id="tspan11745">
+</tspan><tspan
+           x="24"
+           y="549.94796"
+           id="tspan11747">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="564.94796"
+           id="tspan11749">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="579.94796"
+           id="tspan11751">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="594.94796"
+           id="tspan11753">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="609.94796"
+           id="tspan11755">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </tspan><tspan
+           x="24"
+           y="624.94796"
+           id="tspan11757">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</tspan></text>
+    </g>
+    <rect
+       style="mix-blend-mode:normal;fill:url(#linearGradient7968);fill-opacity:1;fill-rule:evenodd;stroke:#e0be65;stroke-width:0.0840644;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7960"
+       width="33.195816"
+       height="9.0072927"
+       x="121.84377"
+       y="160.6691"
+       ry="2.9055784"
+       inkscape:transform-center-x="-12.025861"
+       inkscape:transform-center-y="-2.7338991" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.82032px;fill:#353535;fill-opacity:1;stroke:#e0be65;stroke-width:0;stroke-opacity:1"
+       x="128.98224"
+       y="167.25874"
+       id="text7964"><tspan
+         sodipodi:role="line"
+         id="tspan7962"
+         x="128.98224"
+         y="167.25874"
+         style="fill:#353535;fill-opacity:1;stroke:#e0be65;stroke-width:0;stroke-opacity:1">Enviar</tspan></text>
+    <rect
+       style="opacity:0.92;fill:#d6f5ac;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.053;stroke-dasharray:none;stroke-opacity:0.743243"
+       id="rect7912"
+       width="191.02916"
+       height="58.737499"
+       x="9.4888897"
+       y="181.81737"
+       ry="1.3830492" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.5447px;fill:#0b0b0b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.259486;stroke-dasharray:none;stroke-opacity:1"
+       x="11.927726"
+       y="214.68547"
+       id="text6374-1"><tspan
+         sodipodi:role="line"
+         id="tspan6372-1"
+         style="fill:#0b0b0b;fill-opacity:1;stroke-width:0.259486"
+         x="11.927726"
+         y="214.68547">&lt;INFO DE SERVICIOS&gt;</tspan></text>
+    <rect
+       style="fill:#252525;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0.743243"
+       id="rect9868"
+       width="210.00693"
+       height="37.479557"
+       x="0.0011968457"
+       y="259.51953" />
+    <rect
+       style="mix-blend-mode:normal;fill:url(#linearGradient9876);fill-opacity:1;fill-rule:evenodd;stroke:#e0be65;stroke-width:0.104146;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9870"
+       width="51.063721"
+       height="8.9872112"
+       x="79.222153"
+       y="245.08122"
+       ry="2.8991005"
+       inkscape:transform-center-x="0.63920023"
+       inkscape:transform-center-y="0.048935027" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.82032px;fill:#353535;fill-opacity:1;stroke:#e0be65;stroke-width:0;stroke-opacity:1"
+       x="90.940956"
+       y="251.66083"
+       id="text9874"
+       inkscape:transform-center-x="-4.1614289"
+       inkscape:transform-center-y="0.024893617"><tspan
+         sodipodi:role="line"
+         id="tspan9872"
+         x="90.940956"
+         y="251.66083"
+         style="fill:#353535;fill-opacity:1;stroke:#e0be65;stroke-width:0;stroke-opacity:1">Contratar</tspan></text>
+  </g>
+</svg>
