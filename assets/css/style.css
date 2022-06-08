@@ -71,16 +71,24 @@ section#topbar {
     margin-right: 10px;
     background: linear-gradient(180deg, #e0be67ff 0%, #e5c411ff 100%);
     border: 0.5px solid #e0be67ff;
+    cursor: pointer;
 }
 
 #topbar .topbar-contacto a.topbar-brand-button.button-correo:hover {
     background: linear-gradient(180deg, #e0be67ff 0%, #e0be67ff 100%);
+    box-shadow: 0 0 7px #6f6f6f;
 }
 
 #topbar .topbar-contacto a.topbar-brand-button.button-telefono {
     margin-left: 10px;
     background: linear-gradient(180deg, #f0f0f0ff 0%, #ccccccff 100%);
     border: 0.5px solid #f0f0f0ff;
+    cursor: pointer;
+}
+
+#topbar .topbar-contacto a.topbar-brand-button.button-telefono:hover {
+    background: linear-gradient(180deg, #f0f0f0ff 0%, #f0f0f0ff 100%);
+    box-shadow: 0 0 7px #6f6f6f;
 }
 
 /* :::nav-menu::: */
@@ -123,11 +131,18 @@ img.menu-logo--image {
 .nav-menu--flex .nav-menu--menu #nav-menu--list .nav-menu--item {
     float: left;
     padding: 0 20px;
+    height: 2vh;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .nav-menu--flex .nav-menu--menu #nav-menu--list .nav-menu--item .nav-menu--link {
     float: left;
     padding: 0 20px;
+}
+
+.nav-menu--flex .nav-menu--menu #nav-menu--list .nav-menu--item:hover {
+    border-bottom: 3px solid #e5c411ff;
 }
 
 .nav-menu--flex .nav-menu--search:nth-of-type(n) {
@@ -270,6 +285,11 @@ h2.page-main--title {
     border-radius: 10px;
     border: 1px solid #f0f0f0;
     background: linear-gradient(180deg, #f0f0f0 0%, #ccc 100%);
+    cursor: pointer;
+}
+
+.page-main--formulario #formulario button:hover {
+    background: #f0f0f0;
 }
 
 section.info-servicios--block, div.info-servicios--block {
@@ -330,6 +350,11 @@ h2.servicios-title {
     color: #353535;
     margin: auto;
     box-shadow: 0 0 15px #c7c7c7;
+    cursor: pointer;
+}
+
+.info-servicios--block a#contratar-servicios:hover {
+    background: #e0be67ff;
 }
 
 article.info-servicios--block {
@@ -449,6 +474,11 @@ form#formulario-bottom button {
     border-radius: 10px;
     border: 1px solid #f0f0f0;
     background: linear-gradient(180deg, #f0f0f0 0%, #ccc 100%);
+    cursor: pointer;
+}
+
+form#formulario-bottom button:hover {
+    background: #f0f0f0;
 }
 
 /* FOOTER */
@@ -487,6 +517,11 @@ footer#footer {
     border: 0.5px solid #e0be67ff;
     border-radius: 10px;
     padding: 3px 20px;
+    cursor: pointer;
+}
+
+#footer .footer-block--top .footer-contact a.footer-brand-button.button-correo:hover {
+    background: #e0be67ff;
 }
 
 #footer .footer-block--top .footer-contact a.footer-brand-button.button-telefono {
@@ -495,6 +530,11 @@ footer#footer {
     border: 0.5px solid #f0f0f0ff;
     border-radius: 10px;
     padding: 3px 20px;
+}
+
+#footer .footer-block--top .footer-contact a.footer-brand-button.button-telefono:hover {
+    background: f0f0f0ff;
+    cursor: pointer;
 }
 
 footer#footer .footer-block--bottom {
