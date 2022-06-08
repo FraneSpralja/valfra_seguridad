@@ -698,3 +698,14 @@ footer#footer .footer-block--bottom {
         margin-left: 0;
     }
 }
+
+/* JS especial class */
+
+.error {
+    border: 1px solid #ff2e2e !important;
+}
+
+.button-disabled {
+    opacity: .6;
+    cursor: not-allowed !important;
+}

@@ -1,6 +1,17 @@
 // VARIABLES
 const pageHero = document.querySelector('#page-hero');
-
+const formulario = document.querySelector('#formulario');
+const formularioBottom = document.querySelector('#formulario-bottom');
+const nombre = document.querySelector('#formulario input[name="nombre"]');
+const email = document.querySelector('#formulario input[name="correo"]');
+const asunto = document.querySelector('#formulario input[name="asunto"]');
+const selector = document.querySelector('#selectEmpresa');
+const nombreBottom = document.querySelector('#formulario-bottom input[name="nombre"]');
+const emailBottom = document.querySelector('#formulario-bottom input[name="correo"]');
+const asuntoBottom = document.querySelector('#formulario-bottom input[name="asunto"]');
+const selectorBottom = document.querySelector('#formulario-bottom #selectEmpresa');
+const formularioBtn = document.querySelector('#formulario button');
+const formularioBottomBtn =document.querySelector('#formulario-bottom button');
 
 
 // EVENT LISTENERS
@@ -12,10 +23,24 @@ function eventListener () {
 
         pageHero.classList.add('slide-uno')
 
-        sliderHero()
+        sliderHero();
+        disableButton();
     });
 
-}
+    formulario.addEventListener('submit', () => {
+
+    })
+
+    nombre.addEventListener('blur', errorFormulario);
+    nombreBottom.addEventListener('blur', errorFormulario);
+    email.addEventListener('blur', errorFormulario);
+    emailBottom.addEventListener('blur', errorFormulario);
+    asunto.addEventListener('blur', errorFormulario);
+    asuntoBottom.addEventListener('blur', errorFormulario);
+
+};
+
+// FUNCIONES
 
 function sliderHero(){
     
@@ -48,4 +73,21 @@ function sliderHero(){
     }
 
     setInterval(slider, 9000)
+}
+
+function disableButton() {
+    formularioBtn.setAttribute('disabled', true);
+    formularioBtn.classList.add('button-disabled');
+
+    formularioBottomBtn.setAttribute('disabled', true);
+    formularioBottomBtn.classList.add('button-disabled');
+}
+
+function errorFormulario(e) {
+    if(e.target.value === "") {
+    e.target.classList.add('error');
+    
+    }else{
+        e.target.classList.remove('error');
+    }
 }
