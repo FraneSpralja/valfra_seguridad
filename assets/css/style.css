@@ -73,6 +73,10 @@ section#topbar {
     border: 0.5px solid #e0be67ff;
 }
 
+#topbar .topbar-contacto a.topbar-brand-button.button-correo:hover {
+    background: linear-gradient(180deg, #e0be67ff 0%, #e0be67ff 100%);
+}
+
 #topbar .topbar-contacto a.topbar-brand-button.button-telefono {
     margin-left: 10px;
     background: linear-gradient(180deg, #f0f0f0ff 0%, #ccccccff 100%);
