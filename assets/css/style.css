@@ -167,11 +167,33 @@ img.menu-logo--image {
 }
 
 /* PAGE-HERO */
-#page-hero{
+.slide-uno{
     position: relative;
     top: 130px;
     height: 70vh;
     background-image: url(../images/sec_guard_mall.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-bottom: 130px;
+}
+
+.slide-dos{
+    position: relative;
+    top: 130px;
+    height: 70vh;
+    background-image: url(../images/sec_guard_club-hipico.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-bottom: 130px;
+}
+
+.slide-tres{
+    position: relative;
+    top: 130px;
+    height: 70vh;
+    background-image: url(../images/sec_guard_condo.jpg);
     background-size: cover;
     background-position: center;
     display: block;
