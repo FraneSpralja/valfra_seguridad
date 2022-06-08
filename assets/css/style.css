@@ -562,6 +562,7 @@ footer#footer .footer-block--bottom {
 
     .page-main--article, .page-main--formulario {
         width: 85%;
+        margin: 30px auto;
     }
 
     h2.page-main--title {
