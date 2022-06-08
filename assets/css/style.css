@@ -152,7 +152,7 @@ img.menu-logo--image {
     position: relative;
     top: 130px;
     height: 70vh;
-    background-image: url(assets/images/sec_guard_mall.jpg);
+    background-image: url(../images/sec_guard_mall.jpg);
     background-size: cover;
     background-position: center;
     display: block;
