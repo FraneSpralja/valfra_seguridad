@@ -1,3 +1,22 @@
+// INICIALIZAR FIREBASE
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyDvFfYpEISeOp_ArlkhQwTBHc8JlvI9CPM",
+    authDomain: "valfracontactform.firebaseapp.com",
+    projectId: "valfracontactform",
+    storageBucket: "valfracontactform.appspot.com",
+    messagingSenderId: "937132259017",
+    appId: "1:937132259017:web:d1c216fccc5199f21dff18"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 // VARIABLES
 const pageHero = document.querySelector('#page-hero');
 const formulario = document.querySelector('#formulario');
@@ -12,6 +31,10 @@ const asuntoBottom = document.querySelector('#formulario-bottom input[name="asun
 const selectorBottom = document.querySelector('#formulario-bottom #selectEmpresa');
 const formularioBtn = document.querySelector('#formulario button');
 const formularioBottomBtn =document.querySelector('#formulario-bottom button');
+
+// mensajes
+let mensajesFormulario = app.database().ref('mensajes')
+
 /* regular expresion */
 const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
@@ -229,10 +252,7 @@ function enviarFormulario(e) {
         }, 5000)
     }, 1000)
 
-    console.log(nombre.value)
-    console.log(email.value)
-    console.log(asunto.value)
-    console.log(selector.value)
+    guardarMensajesEnFirebase(nombre, email, asunto, selector);
 };
 
 function enviarFormularioBottom(e) {
@@ -257,3 +277,15 @@ function enviarFormularioBottom(e) {
     console.log(asuntoBottom.value)
     console.log(selectorBottom.value)
 };
+
+/* Funcion para guardar mensajes en firebase */
+
+function guardarMensajesEnFirebase(nombre, email, asunto, selector) {
+    let nuevoMensajeRef = mensajesFormulario.push();
+    nuevoMensajeRef.set({
+        nombre: nombre,
+        corre: email,
+        asunto: asunto,
+        selector: selector,
+    });
+}
