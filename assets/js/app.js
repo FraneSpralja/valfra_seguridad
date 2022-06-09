@@ -77,7 +77,9 @@ function sliderHero(){
     setInterval(slider, 9000)
 }
 
-/* validar formulario */
+// FORMULARIO
+
+/* Disable button */
 
 function disableButton() {
     formularioBtn.setAttribute('disabled', true);
@@ -86,6 +88,8 @@ function disableButton() {
     formularioBottomBtn.setAttribute('disabled', true);
     formularioBottomBtn.classList.add('button-disabled');
 }
+
+/* validar formulario */
 
 function validarFormulario(e) {
     if(e.target.value.length !== 0) {
@@ -125,9 +129,7 @@ function validarFormulario(e) {
         formularioBtn.disabled = false;
         formularioBtn.classList.remove('button-disabled');
     }
-
-
-}
+};
 
 function validarFormularioBottom(e) {
     if(e.target.value.length !== 0) {
@@ -169,6 +171,8 @@ function validarFormularioBottom(e) {
     }
 }
 
+/* Mensaje de error */
+
 function mostrarError(mensaje) {
     const mensajeError = document.createElement('p');
     mensajeError.textContent = mensaje;
@@ -193,14 +197,24 @@ function mostrarErrorBottom(mensaje) {
     };
 };
 
+/* Reset formulario */
+
 function resetFormulario() {
     formulario.reset()
     disableButton();
 }
 
+function resetFormularioBottom() {
+    formularioBottom.reset()
+    disableButton();
+}
+
+/* enviar formulario */
+
 function enviarFormulario(e) {
     e.preventDefault();
 
+    
     setTimeout(() => {
         const parrafoSuccess = document.createElement('p');
         parrafoSuccess.textContent = 'Mensaje enviado correctamente';
@@ -214,11 +228,12 @@ function enviarFormulario(e) {
             resetFormulario();
         }, 5000)
     }, 1000)
+
+    console.log(nombre.value)
+    console.log(email.value)
+    console.log(asunto.value)
+    console.log(selector.value)
 };
-function resetFormularioBottom() {
-    formularioBottom.reset()
-    disableButton();
-}
 
 function enviarFormularioBottom(e) {
     e.preventDefault();
@@ -236,4 +251,9 @@ function enviarFormularioBottom(e) {
             resetFormularioBottom();
         }, 5000)
     }, 1000)
+
+    console.log(nombreBottom.value)
+    console.log(emailBottom.value)
+    console.log(asuntoBottom.value)
+    console.log(selectorBottom.value)
 };
