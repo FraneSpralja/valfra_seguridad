@@ -12,7 +12,8 @@ const asuntoBottom = document.querySelector('#formulario-bottom input[name="asun
 const selectorBottom = document.querySelector('#formulario-bottom #selectEmpresa');
 const formularioBtn = document.querySelector('#formulario button');
 const formularioBottomBtn =document.querySelector('#formulario-bottom button');
-
+/* regular expresion */
+const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 // EVENT LISTENERS
 eventListener()
@@ -27,20 +28,21 @@ function eventListener () {
         disableButton();
     });
 
-    formulario.addEventListener('submit', () => {
+    formulario.addEventListener('submit', enviarFormulario)
+    formularioBottom.addEventListener('submit', enviarFormularioBottom)
 
-    })
-
-    nombre.addEventListener('blur', errorFormulario);
-    nombreBottom.addEventListener('blur', errorFormulario);
-    email.addEventListener('blur', errorFormulario);
-    emailBottom.addEventListener('blur', errorFormulario);
-    asunto.addEventListener('blur', errorFormulario);
-    asuntoBottom.addEventListener('blur', errorFormulario);
+    nombre.addEventListener('blur', validarFormulario);
+    nombreBottom.addEventListener('blur', validarFormularioBottom);
+    email.addEventListener('blur', validarFormulario);
+    emailBottom.addEventListener('blur', validarFormularioBottom);
+    asunto.addEventListener('blur', validarFormulario);
+    asuntoBottom.addEventListener('blur', validarFormularioBottom);
 
 };
 
 // FUNCIONES
+
+/* slide portada */
 
 function sliderHero(){
     
@@ -75,6 +77,8 @@ function sliderHero(){
     setInterval(slider, 9000)
 }
 
+/* validar formulario */
+
 function disableButton() {
     formularioBtn.setAttribute('disabled', true);
     formularioBtn.classList.add('button-disabled');
@@ -83,11 +87,153 @@ function disableButton() {
     formularioBottomBtn.classList.add('button-disabled');
 }
 
-function errorFormulario(e) {
-    if(e.target.value === "") {
-    e.target.classList.add('error');
-    
-    }else{
+function validarFormulario(e) {
+    if(e.target.value.length !== 0) {
+        const error = document.querySelector('p.error-mensaje');
+        if(error) {
+            error.remove();
+        };
+
         e.target.classList.remove('error');
+        e.target.classList.add('success');
+    }else{
+        e.target.classList.remove('success');
+        e.target.classList.add('error');
+
+        mostrarError('Los campos son obligatorios')
+    };
+
+    if (e.target.type === 'email') {
+
+        if(er.test(e.target.value)){
+            const error = document.querySelector('p');
+            if(error) {
+                error.remove();
+            };
+
+            e.target.classList.remove('error');
+            e.target.classList.add('success')
+        }else{
+            e.target.classList.add('error');
+            e.target.classList.remove('success')
+
+            mostrarError('El email no es válido')
+        };
+    };
+
+    if(er.test(email.value) && nombre.value !== "" && asunto.value !== "") {
+        formularioBtn.disabled = false;
+        formularioBtn.classList.remove('button-disabled');
+    }
+
+
+}
+
+function validarFormularioBottom(e) {
+    if(e.target.value.length !== 0) {
+        const error = document.querySelector('p.error-mensaje');
+        if(error) {
+            error.remove();
+        };
+
+        e.target.classList.remove('error');
+        e.target.classList.add('success');
+    }else{
+        e.target.classList.remove('success');
+        e.target.classList.add('error');
+
+        mostrarErrorBottom('Los campos son obligatorios')
+    }
+
+    if (e.target.type === 'email') {
+
+        if(er.test(e.target.value)){
+            const error = document.querySelector('p');
+            if(error) {
+                error.remove();
+            };
+
+            e.target.classList.remove('error');
+            e.target.classList.add('success')
+        }else{
+            e.target.classList.add('error');
+            e.target.classList.remove('success')
+
+            mostrarError('El email no es válido')
+        };
+    };
+
+    if(er.test(emailBottom.value) && nombreBottom.value !== "" && asuntoBottom.value !== "") {
+        formularioBottomBtn.disabled = false;
+        formularioBottomBtn.classList.remove('button-disabled');
     }
 }
+
+function mostrarError(mensaje) {
+    const mensajeError = document.createElement('p');
+    mensajeError.textContent = mensaje;
+    mensajeError.classList.add('error-mensaje', 'error');
+
+    const errores = document.querySelectorAll('.error');
+
+    if(errores.length === 1) {
+        formulario.appendChild(mensajeError);
+    };
+};
+
+function mostrarErrorBottom(mensaje) {
+    const mensajeError = document.createElement('p');
+    mensajeError.textContent = mensaje;
+    mensajeError.classList.add('error-mensaje', 'error');
+
+    const errores = document.querySelectorAll('.error');
+
+    if(errores.length === 1) {
+        formularioBottom.appendChild(mensajeError);
+    };
+};
+
+function resetFormulario() {
+    formulario.reset()
+    disableButton();
+}
+
+function enviarFormulario(e) {
+    e.preventDefault();
+
+    setTimeout(() => {
+        const parrafoSuccess = document.createElement('p');
+        parrafoSuccess.textContent = 'Mensaje enviado correctamente';
+        parrafoSuccess.classList.add('mensaje-success');
+
+        formulario.appendChild(parrafoSuccess);
+
+        setTimeout(() => {
+            parrafoSuccess.remove();
+
+            resetFormulario();
+        }, 5000)
+    }, 1000)
+};
+function resetFormularioBottom() {
+    formularioBottom.reset()
+    disableButton();
+}
+
+function enviarFormularioBottom(e) {
+    e.preventDefault();
+
+    setTimeout(() => {
+        const parrafoSuccess = document.createElement('p');
+        parrafoSuccess.textContent = 'Mensaje enviado correctamente';
+        parrafoSuccess.classList.add('mensaje-success');
+
+        formularioBottom.appendChild(parrafoSuccess);
+
+        setTimeout(() => {
+            parrafoSuccess.remove();
+
+            resetFormularioBottom();
+        }, 5000)
+    }, 1000)
+};

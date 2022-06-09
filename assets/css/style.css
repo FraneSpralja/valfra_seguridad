@@ -319,10 +319,10 @@ section.info-servicios--block, div.info-servicios--block {
 }
 
 div.servicios-card--block, div.info-servicios--block {
-    padding: 25px 20px;
+    padding: 25px 50px;
     display: flex;
-    flex-flow: row;
-    column-gap: 10px;
+    flex-flow: row nowrap;
+    column-gap: 30px;
 }
 
 h2.servicios-title {
@@ -334,6 +334,7 @@ h2.servicios-title {
 
 .info-servicios--block .info-servicios--card {
     box-sizing: border-box;
+    margin: auto;
 }
 
 .info-servicios--card .card-servicios {
@@ -341,7 +342,7 @@ h2.servicios-title {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background: #fff;
-    width: 85%;
+    width: 100%;
     margin: auto;
     box-shadow: 0 0 15px #c7c7c7;
 }
@@ -422,7 +423,7 @@ section#reportes.sistema-reportes h2 {
 section#reportes.sistema-reportes div.sistema-reportes-box{
     display: flex;
     flex-flow: row nowrap;
-    column-gap: 10px;
+    column-gap: 30px;
     padding: 25px 50px;
 }
 
@@ -477,6 +478,7 @@ form#formulario-bottom input {
     padding: 2px 3px;
     border-radius: 7px;
     border: 1px solid #ccc;
+    font-size: 19px;
 }
 
 form#formulario-bottom select {
@@ -705,7 +707,29 @@ footer#footer .footer-block--bottom {
     border: 1px solid #ff2e2e !important;
 }
 
+.success {
+    border: 1px solid #25ba25 !important;
+}
+
+.error-mensaje {
+    border: 1px solid #ff2e2e;
+    background: #f27272;
+    color: #353535;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
 .button-disabled {
     opacity: .6;
     cursor: not-allowed !important;
+}
+
+.mensaje-success {
+    border: 1px solid #25ba25;
+    background: #82e982;
+    color: #454545;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
 }
