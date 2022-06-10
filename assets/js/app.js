@@ -255,4 +255,6 @@ function enviarFormularioBottom(e) {
             resetFormularioBottom();
         }, 5000)
     }, 1000)
+
+    nuevoClienteValfra(nombreBottom.value, emailBottom.value, asuntoBottom.value, selectorBottom.value)
 };
