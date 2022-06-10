@@ -1,3 +1,6 @@
+import { nuevoClienteValfra } from "./firebase.js";
+
+
 // VARIABLES
 const pageHero = document.querySelector('#page-hero');
 const formulario = document.querySelector('#formulario');
@@ -112,7 +115,7 @@ function validarFormulario(e) {
     if (e.target.type === 'email') {
 
         if(er.test(e.target.value)){
-            const error = document.querySelector('p');
+            const error = document.querySelector('p.error-mensaje');
             if(error) {
                 error.remove();
             };
@@ -152,7 +155,7 @@ function validarFormularioBottom(e) {
     if (e.target.type === 'email') {
 
         if(er.test(e.target.value)){
-            const error = document.querySelector('p');
+            const error = document.querySelector('p.error-mensaje');
             if(error) {
                 error.remove();
             };
@@ -231,7 +234,9 @@ function enviarFormulario(e) {
         }, 5000)
     }, 1000)
 
-    guardarMensajesEnFirebase(nombre, email, asunto, selector);
+    nuevoClienteValfra(nombre.value, email.value, asunto.value, selector.value)
+
+    // enviar a base de datos
 };
 
 function enviarFormularioBottom(e) {

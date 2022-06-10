@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;500&display=swap');
+
+
+body {
+    padding-top: 70px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+thead tr th {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+tr th {
+    background-color: #454545;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr td {
+    padding: 7px 15px;
+}
+
+tbody tr td:last-child {
+    text-align: center;
+}
