@@ -30,6 +30,12 @@ p {
     line-height: 1.6;
 }
 
+/* HTML */
+:root {
+    scroll-behavior: smooth;
+}
+
+
 /* HEADER */
 
 /* :::topbar::: */
@@ -141,7 +147,7 @@ img.menu-logo--image {
     padding: 0 20px;
 }
 
-.nav-menu--flex .nav-menu--menu #nav-menu--list .nav-menu--item:hover {
+.nav-menu--flex .nav-menu--menu #nav-menu--list .nav-menu--item:hover > .nav-menu--link {
     border-bottom: 3px solid #e5c411ff;
 }
 
