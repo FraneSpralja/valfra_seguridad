@@ -67,16 +67,19 @@ function sliderHero(){
     function slideDos() {
         pageHero.classList.remove('slide-uno');
         pageHero.classList.add('slide-dos');
+        let slide = document.querySelector('.slide-dos');
     }
 
     function slideTres() {
         pageHero.classList.remove('slide-dos');
         pageHero.classList.add('slide-tres');
+        let slide = document.querySelector('.slide-tres');
     }
 
     function slideUno () {
         pageHero.classList.remove('slide-tres');
         pageHero.classList.add('slide-uno');
+        let slide = document.querySelector('.slide-uno');
     }
 
     setInterval(slider, 9000)
