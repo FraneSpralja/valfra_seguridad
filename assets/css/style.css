@@ -688,6 +688,14 @@ footer#footer .footer-block--bottom {
         row-gap: 10px;
     }
 
+    .info-servicios--block .info-servicios--card {
+        width: 80%;
+    }
+    
+    .info-servicios--block .info-servicios--card .card-servicios {
+        height: fit-content;
+    }
+
     article.info-servicios--block div.nuestro-personal div {
         flex-flow: column;
     }
@@ -709,6 +717,11 @@ footer#footer .footer-block--bottom {
         display: none;
     }
 
+    article.info-servicios--block div.nuestro-personal div div ol {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
     section#reportes.sistema-reportes div.sistema-reportes-box {
         flex-flow: column;
         row-gap: 10px;
@@ -719,12 +732,23 @@ footer#footer .footer-block--bottom {
         margin-left: 0;
     }
 
+    #reportes.sistema-reportes p {
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
     section#reportes.sistema-reportes .card-reportes {
         width: 90%;
     }
 
     section#contacto-form form#formulario-bottom {
         width: 85%;
+    }
+
+    #footer {
+        padding-bottom: 30px;
     }
 
     #footer .footer-block--top .footer-contact {
@@ -739,6 +763,10 @@ footer#footer .footer-block--bottom {
 
     #footer .footer-block--top .footer-contact a.footer-brand-button.button-telefono {
         margin-left: 0;
+    }
+
+    footer#footer .footer-block--bottom {
+        padding-bottom: 20px;
     }
 }
 
