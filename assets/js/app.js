@@ -59,30 +59,32 @@ function sliderHero(){
 
                 setTimeout(() => {
                     slideUno();
-                }, 3000)
-            }, 3000)
-        }, 3000)}
+                }, 7000)
+            }, 7000)
+        }, 7000)}
         
 
     function slideDos() {
         pageHero.classList.remove('slide-uno');
-        pageHero.classList.add('slide-dos');
+        pageHero.classList.add('slide-dos', 'fade1');
         let slide = document.querySelector('.slide-dos');
     }
 
     function slideTres() {
         pageHero.classList.remove('slide-dos');
-        pageHero.classList.add('slide-tres');
+        pageHero.classList.add('slide-tres', 'fade2');
         let slide = document.querySelector('.slide-tres');
     }
 
     function slideUno () {
         pageHero.classList.remove('slide-tres');
-        pageHero.classList.add('slide-uno');
+        pageHero.classList.add('slide-uno', 'fade3');
         let slide = document.querySelector('.slide-uno');
     }
 
-    setInterval(slider, 9000)
+    setInterval(() => {
+        slider()
+    }, 21000)
 }
 
 // FORMULARIO
